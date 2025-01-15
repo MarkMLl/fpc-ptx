@@ -5,7 +5,7 @@ In common with many software projects, it can be remarkably difficult to answer 
 
 This set of scripts comprises a "proof of concept" which reads the published documentation files (see e.g. https://sourceforge.net/projects/freepascal/files/Documentation/ ), extracts function descriptions from the body of the text, trims these in an attempt to keep entries of a manageable length, and prepares a permuted index.
 
-As an example, using the .chm files for the RTL and FCL packages from versions 2.6.0 (the oldest for which these are available), 2.6.4, 3.0.0 and 3.2.2 (the current version) results in a formatted output file of roughly 39,000 lines with line lengths not exceeding 132 columns.
+As an example, using the .chm files for the RTL and FCL packages from versions 2.6.0 (the oldest for which these are available), 2.6.4, 3.0.0 and 3.2.2 (the current version) results in a formatted output file of roughly 38,000 lines with line lengths not exceeding 132 columns (I promise that I did _not_ tune this specifically for the music-ruled fethishists).
 
 Each line comprises the name of a function (truncated where unavoidable), the description (sorted at an index point shown by | ) and a tag indicating what package the function may be found in (RTL or FCL) and the version in which it was introduced (subject to the availability of .chm files, i.e. rtl_264 in this contex means "no later than RTL 2.6.4").
 
