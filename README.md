@@ -41,7 +41,7 @@ StrPas:                                                 null-terminated | string
 Utf8ToAnsi:                                       UTF-8 encoded Unicode | string to ansistring {rtl_322}
 ```
 
-Note that TStringHelper (from SysUtils) is correctly grouped with standard sting operations (from System, StrUtils etc.).
+Note that TStringHelper (from SysUtils) is correctly grouped with standard string operations (from System, StrUtils etc.).
 
 For a detailed description of parameters and semantics, see the standard documentation based at https://www.freepascal.org/docs.html
 
