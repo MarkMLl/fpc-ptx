@@ -34,7 +34,7 @@ $lastText = '';
 $lastTag = '{xxx+999}';
 foreach $line (@sorted) {
   $line =~ /^(.+?)( \{.+?\})$/;
-  $thisText = $1;
+  $thisText = lc($1);
   $thisTag = $2;
   if ($thisText ne $lastText) {
     printf("$thisText$thisTag\n");
