@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# set -x
-
 . ./params.sh
 
 # Note that even though the parameters file can specify a list of packages, I'm processing

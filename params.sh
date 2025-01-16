@@ -1,3 +1,6 @@
+
+# set -x
+
 VERSION=3.2.2
 SHORTVER=322
 PACKAGE=rtl
@@ -9,8 +12,10 @@ CHMLS=/usr/local/bin.fpc/$VERSION/chmls
 SOURCE=/usr/local/src/fpc-doc/$VERSION/help/ 
 OUTPUT=./
 
-# Above are the master parameters, reformat for Perl and define the maximum
-# width of the name and description fields (excluding appended tag).
+# Above are the master parameters, although note that the CHMLS version might
+# need to be hardwired if the full range of binaries is unavailable. Reformat
+# for Perl, and define the maximum width of the name and description fields
+# (excluding appended tag).
 
 cat > ./params.pl << EOF
 
